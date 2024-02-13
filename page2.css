@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, rgb(255,247,173), rgb(255, 180, 238));
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cluster {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.cluster img {
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+}
+
+.singlePic img{
+    height: 420px;
+    width: 250px;
+    padding: 10px;
+}
+
+.wrapper {
+    display: flex;
+    padding: 50px 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px 50px;
+    width: 30%;
+    background-color: rgb(255, 113, 113);
+}
+
+.click {
+    display: flex;
+    align-items: center;
+}
+
+.click img {
+    padding: 5px;
+}
+
+.outer {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
